@@ -22,6 +22,7 @@
 	belt = /obj/item/storage/belt/rogue/leather
 	armor = /obj/item/clothing/suit/roguetown/armor/chainmail/hauberk
 	beltr = /obj/item/storage/belt/rogue/pouch/coins/poor
+	beltl = /obj/item/roguekey/mercenary 
 	cloak = /obj/item/clothing/cloak/stabard/grenzelhoft
 	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/black
 	pants = /obj/item/clothing/under/roguetown/trou/leather
