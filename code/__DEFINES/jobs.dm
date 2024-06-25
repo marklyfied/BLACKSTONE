@@ -181,6 +181,7 @@
 
 #define DESERT_RIDER	(1<<0)
 #define GRENZELHOFT		(1<<1)
+#define BOWMASTER		(1<<2)
 
 #define GOBLIN		(1<<8)
 
@@ -273,14 +274,14 @@
 
 #define JDO_GRENZELHOFT 31
 #define JDO_DESERT_RIDER 32
+#define JDO_BOW_MASTER 33
+#define JDO_VAGRANT 34
+#define JDO_ORPHAN 35
 
-#define JDO_VAGRANT 33
-#define JDO_ORPHAN 34
+#define JDO_PRISONER 36
+#define JDO_LUNATIC 36.1
 
-#define JDO_PRISONER 35
-#define JDO_LUNATIC 35.1
-
-#define JDO_GOBLINKING 36
-#define JDO_GOBLINCOOK 37
-#define JDO_GOBLINGUARD 38
-#define JDO_GOBLINSMITH 39
+#define JDO_GOBLINKING 37
+#define JDO_GOBLINCOOK 38
+#define JDO_GOBLINGUARD 39
+#define JDO_GOBLINSMITH 40
