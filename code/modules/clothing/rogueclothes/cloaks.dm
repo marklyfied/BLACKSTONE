@@ -364,6 +364,13 @@
 	detail_color = CLOTHING_RED
 	detail_tag = "_box"
 
+/obj/item/clothing/cloak/stabard/bowmasters
+	name = "bow master mercenary tabard"
+	desc = "A tabard bearing the colors of the Bow Master Mercenary."
+	color = CLOTHING_YELLOW
+	detail_color = CLOTHING_BLUE
+	detail_tag = "_dim"
+
 /obj/item/clothing/cloak/stabard/dungeon
 	color = CLOTHING_BLACK
 
