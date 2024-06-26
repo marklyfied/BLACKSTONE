@@ -1,5 +1,5 @@
 /datum/job/roguetown/mercenary/bowmaster
-	title = "Bow Masters"
+	title = "Bow Masters Mercenary"
 	flag = BOWMASTER
 	department_flag = MERCENARIES
 	tutorial = "Unlike the other mercenaries who provide melee support, Bow Masters, specalizes in ranged attacks. The bow masters are usually paid coin to take posts on trees or walls."
@@ -35,16 +35,6 @@
 	T.spark_act()
 	H.put_in_hands(T,forced=TRUE)
 
-	if(H.gender == FEMALE)
-		var/acceptable = list("Tomboy", "Bob", "Curly Short")
-		if(!(H.hairstyle in acceptable))
-			H.hairstyle = pick(acceptable)
-			H.update_hair()
-	//Humie grenzelhofts are always set to be, well, grenzelhoft
-	if(ishumannorthern(H))
-		var/list/skin_slop = H.dna.species.get_skin_list()
-		H.skin_tone = skin_slop["Grenzelhoft"]
-		H.update_body()
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/misc/climbing, 4, TRUE)
